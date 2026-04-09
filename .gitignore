@@ -1,0 +1,23 @@
+# ── Data files (never commit raw/processed data) ──────────────────────────────
+data/raw/
+data/processed/
+
+# ── Python environment ─────────────────────────────────────────────────────────
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+.env
+*.env
+
+# ── Jupyter ────────────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+
+# ── Power BI ───────────────────────────────────────────────────────────────────
+*.pbix.bak
+
+# ── OS clutter ─────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
